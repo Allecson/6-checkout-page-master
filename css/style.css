@@ -1,0 +1,394 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Pro:200&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,500,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Lora:regular,500,700&display=swap);
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style:none;
+}   
+
+body{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 50px clamp(0.75rem, -0.68rem + 6.1vw, 4.813rem);
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+h1{
+    color: #4e5150;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 35px;
+}
+h3{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 20px;
+}
+.complete__input{
+    padding-bottom: 10px;
+}
+.desc__p{
+    color: #4f4f4f;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    padding: 8px 0;
+}
+i{
+    font-size: 20px;
+    color: #4e5150;
+}
+input{
+    background-color: transparent;
+    border: none;
+}
+input:focus-visible{
+    outline: none;
+}
+.input__i{
+    padding-left: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid #4e5150;
+    width: 465px;
+    height: 56px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+}
+.input__box{
+    border: none;
+    font-size: 16px;
+    color: #333;
+    line-height: 20px;
+    line-height: 100%;
+    text-align: left;
+    font-weight: 600;  
+}
+.h3__ship{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.flex__input{
+    display: flex;
+    flex-direction: column;   
+}
+.flex__inp{   
+    display: flex;
+    max-width: 465px;
+    width: 100%;
+    justify-content: space-between;
+}
+.input__i2{
+    padding-left: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid #4e5150;
+    max-width: 217px;
+    height: 56px;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+}
+.input__box2{
+    border: none;
+    font-size: 16px;
+    color: gray;
+    line-height: 20px;
+    line-height: 100%;
+    text-align: left;
+    font-weight: 600; 
+    width: 150px;
+    max-width: 100%;    
+}
+
+.input__box2:focus-visible{
+    outline: none;
+}
+.check{
+    padding-top: 20px;
+    display: flex;
+    gap:5px;
+}
+
+.p__check{
+    color: #4f4f4f;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    padding: 8px 0;
+}
+.input__check{
+    width: 20px;
+}
+.btn{
+    width: 465px;
+    max-width: 100%;
+}
+.btn__yellow{
+    width: 166px;
+    height: 54px;
+    background-color: #f2994a;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    float: right;   
+}
+
+.items{
+    max-width: 383px;
+    max-height: 535px;
+    max-width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    padding: 25px 35px;
+    
+
+}
+.products{
+    border-radius: 12px;
+}
+.desc__product{
+    color: #4e5150;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+.prices{
+    display: flex;
+    gap: 15px;
+    padding: 15px 20px;
+}
+.actual__price{
+    color: #f2994a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    font-weight: 600;
+}
+.old__price{
+    color: #4e5150;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    font-weight: 600;
+}
+
+    
+  .units::-webkit-inner-spin-button,::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+.units{
+    text-align: center;
+    max-width: 20px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px 0px;
+    font-size: 14px; 
+    font-weight: 600;  
+    margin: 0;
+}
+
+.buttons{
+    background-color: #f2f2f2;
+    max-width: 134px;
+    max-height: 52px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    padding: 15px 7px;
+    margin-left: 20px;
+}
+.sub__button, .max__button{
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    padding:2px 6px;
+    cursor: pointer;
+}
+s{
+    color: #4e5150;
+}
+main{
+   
+    display: flex;
+    justify-content: center;
+    
+}
+.flex__items{
+    display: flex;
+    margin-top: 30px;
+
+}
+.final__price{
+    padding-top: 80px;
+}
+.line{
+    
+    width: 100%;
+    border: 1px solid #bdbdbd;
+    
+}
+.shipp, .total{
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    line-height: 100%;
+    text-align: left;
+    vertical-align: top;
+    font-weight: 600;
+}
+.price__shipp, .price__total{
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    line-height: 100%;
+    text-align: right;
+    vertical-align: top;
+    font-weight: 600;
+}
+.shipp__total{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0px;
+}
+@media all and (max-width:1024px) and (min-width:769px){
+    main{
+        gap: 10px;
+        justify-content: left;
+    }
+    .items{
+        padding: 20px;
+        margin: 0;
+       
+    }
+    
+    .information{
+        max-width: 300px;
+        width: 100%;
+    }
+    .input__i2{
+        max-width: 125px;
+        width: 100%;
+        padding-left: 0;
+        gap: 0;
+    }
+    .fa-solid.fa-earth-americas, .fa-solid.fa-envelopes-bulk{
+        font-size: 15px;
+        padding: 0;
+    }
+    .input__box2{
+        font-size: 12px;
+    }
+    
+}
+@media (max-width:768px) {
+    
+    main{
+    flex-direction: column-reverse;
+    padding: 0px;
+    }
+    .items{
+        margin-left: 0;
+    }
+    .information{
+        max-width: 646px;
+        width: 100%;
+        padding-top:15px;
+    }
+    .input__i{
+        width: 100%;
+    }
+    .flex__inp{
+        max-width: 646px;
+        width: 100%; 
+    }
+    .input__i2{
+        max-width: 200px;
+        width: 100%;
+        
+    }
+    .input__box2{
+        max-width: 200px;
+        width: 100%;
+    }
+    
+    
+}
+@media(max-width:375px){
+    .items{
+        padding-left: 10px;
+    }
+    .input__box2{
+        font-size: 12px;
+        width: 100px;
+        max-width: 100%;
+    }
+    .products{
+        width: 120px;
+        height: 120px;
+    }
+    
+
+}
+footer{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+    text-align: center;
+}
+footer a{
+    text-decoration: underline;
+    color: black;
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+
+
+
+
+
+   

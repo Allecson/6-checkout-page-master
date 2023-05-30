@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Projeto 1</title>
+    <link rel="shortcut icon" href="devchallenges.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <h1>Checkout</h1>
+    <main>
+      <form action="#" class="information">
+        <div class="number__tel">
+          <h3>Contact information</h3>
+          <div class="complete__input">
+          <p class="desc__p">E-mail</p>
+          <div class="input__i">
+            <i class="fa-solid fa-envelope"></i>
+            <input required
+              class="input__box"
+              placeholder="Enter your email"
+              type="email"
+            />
+          </div>
+        </div>
+          <p class="desc__p">Phone</p>
+          <div class="input__i">
+            <i class="fa-solid fa-phone"></i>
+            <input required
+              class="input__box"
+              id="telefone"
+              placeholder="Enter Your phone"
+              type="tel"
+              placeholder="(00) 1234-5678"
+            />
+          </div>
+        </div>
+        <h3 class="h3__ship">Shipping address</h3>
+        <div class="complete__input">
+          <p class="desc__p">Full name</p>
+          <div class=input__i>
+            <i class="fa-solid fa-user"></i>
+            <input required class="input__box" type="text" placeholder="Enter your name">
+          </div>
+        </div>
+        <div class="complete__input">
+          <p class="desc__p">Address</p>
+          <div class=input__i>
+            <i class="fa-solid fa-house"></i>
+            <input required class="input__box" type="text" placeholder="Enter your address">
+          </div>
+        </div>
+        <div class="complete__input">
+          <p class="desc__p">City</p>
+          <div class=input__i>
+            <i class="fa-solid fa-city"></i>
+            <input required class="input__box" type="text" placeholder="Enter your City">
+          </div>
+        </div>
+        <div class="flex__inp">
+        <div class="flex__input">
+          <p class="desc__p">Country</p>
+          <div class=input__i2>
+            <i class="fa-solid fa-earth-americas"></i>
+            <select required name="paises" id="paises" class="input__box2">
+              <option value="selected" selected="selected">Your Country</option>
+              <option value="Brasil" >Brasil</option>
+              <option value="Afeganistão">Afeganistão</option>
+              <option value="África do Sul">África do Sul</option>  
+            </select>
+          </div>
+        </div>
+        <div class="flex__input">
+          <p class="desc__p">Postal Code</p>
+          <div class=input__i2>
+            <i class="fa-solid fa-envelopes-bulk"></i>
+            <input required class="input__box2" type="text" placeholder="Enter your City">
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="check">
+        <input class="input__check" type="checkbox">
+        <p class="p__check">Save This information for next time</p>
+        </div>
+        <div class="btn">
+        <button type="submit" class="btn__yellow">Continue</button>
+        </div>
+      </form>
+      <section class="items">
+        <div class="flex__items">
+          <img class="products" src="photo1.png" alt="bolsa" width="134px" height="136px">
+          <div>
+            <p class="desc__product">Vintage Backbag</p>
+            <div class="prices">
+              <p class="actual__price">$54.99</p>
+              <p class="old__price"><s>$94.99</s></p>
+            </div>
+            <div class="buttons">
+              <button  onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="sub__button">-</button>
+              <input minvalue="0" class="units" type="number" value="0">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="max__button">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="flex__items">
+          <img class="products" src="photo2.png" alt="tenis" width="134px" height="136px">
+          <div>
+            <p class="desc__product">Levi Shoes</p>
+            <div class="prices">
+              <p class="actual__price">$74.99</p>
+              <p class="old__price"><s>$124.99</s></p>
+            </div>
+            <div class="buttons">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"  class="sub__button">-</button>
+              <input class="units" type="number" value="0">
+              <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="max__button">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="final__price">
+        <div class="line"></div>
+        <div class="shipp__total">
+          <p class="shipp">Shipping</p>
+          <p class="price__shipp">$19</p>
+        </div>
+        <div class="line"></div>
+        <div class="shipp__total">
+          <p class="total">Total</p>
+          <p class="price__total">$148.98</p>
+        </div>
+      </div>
+      </section>
+    </main>
+    <footer>
+      <p>Developed by <a href="#">Alecson </a>in 2023</p>
+    </footer>
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
